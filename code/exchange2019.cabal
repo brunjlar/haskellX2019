@@ -1,0 +1,37 @@
+Name:          exchange2019
+Version:       0.0.0.0
+Cabal-Version: >= 2.0
+Build-Type:    Simple
+Copyright:     © 2019 Lars Bruenjes
+Author:        Lars Bruenjes
+
+library
+    exposed-modules:
+          Control.Monad.Delay
+        , Control.Monad.Delay.Class
+        , Control.Monad.Delay.DelayT
+        , Control.Monad.Race
+        , Control.Monad.Race.Class
+        , Control.Monad.Race.Discrete
+        , Control.Monad.Race.Sample
+        , Control.Monad.Probability
+        , Control.Monad.Probability.Class
+        , Control.Monad.Probability.List
+        , Control.Monad.Probability.Sample
+        , Data.Prob
+        , Examples.Diamond
+        , Examples.Dice
+        , Examples.MontyHall
+    build-depends:
+          base >= 4.11 && < 5
+        , Chart
+        , Chart-cairo
+        , colour
+        , containers
+        , data-default-class
+        , lens
+        , mtl
+        , MonadRandom
+    hs-source-dirs: src
+    default-language: Haskell2010
+    ghc-options: -Wall

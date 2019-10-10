@@ -1,0 +1,9 @@
+resolver: lts-14.7
+packages:
+- code
+nix:
+    enable: false
+extra-deps:
+- cairo-0.13.6.0@sha256:a9122d48957a2dbb5a177e5068b850efa1e99bb22c68eb2571165c3c945a8dd6,4187
+- Chart-cairo-1.9.1@sha256:85605a4663f319e482bbd208c1e44c3cc8e0ec094fcd41b6afa3db4ce60635b0,925
+- gtk2hs-buildtools-0.13.5.1@sha256:bba050d5035c6375d0adc04a9000a58689a1b32284753d408a1181697abfcc6b,5288
